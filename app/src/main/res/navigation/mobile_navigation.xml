@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.turismocolombia3.ui.acerca.AcercaFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_acerca" />
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="com.example.turismocolombia3.ui.granada.GranadaFragment"
+        android:label="@string/menu_gallery"
+        tools:layout="@layout/fragment_granada" />
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="com.example.turismocolombia3.ui.mosquera.MosqueraFragment"
+        android:label="@string/menu_slideshow"
+        tools:layout="@layout/fragment_mosquera" />
+
+    <fragment
+        android:id="@+id/nav_tools"
+        android:name="com.example.turismocolombia3.ui.quipama.QuipamaFragment"
+        android:label="@string/menu_tools"
+        tools:layout="@layout/fragment_quipama" />
+
+</navigation>

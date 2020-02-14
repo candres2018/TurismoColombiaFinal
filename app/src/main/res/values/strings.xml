@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Turismo Colombia</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Turismo Colombia</string>
+    <string name="nav_header_subtitle">candres2018@hotmail.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+
+    <string name="menu_home">Acerca de</string>
+    <string name="menu_gallery">Lista de sitos Granada</string>
+    <string name="menu_slideshow">Lista de sitos Mosquera</string>
+    <string name="menu_tools">Lista de sitos Quipama</string>
+    <string name="bienvenido">Bienvenido a</string>
+    <string name="volver">Salir</string>
+    <string name="textView_acerca">Creado por         Carlos Ocaña</string>
+    <string name="action_settings">Configuraciones</string>
+    <string name="title_activity_maps">Map</string>
+
+</resources>

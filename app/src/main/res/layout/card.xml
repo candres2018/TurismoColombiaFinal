@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/nombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:autoText="false"
+        android:background="#B97201"
+        android:text="TextView"
+        android:textColor="#FAFFFFFF"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp" />
+    <ImageView
+        android:id="@+id/imageViewAll"
+        android:layout_width="match_parent"
+        android:layout_height="360dp" />
+
+    <TextView
+        android:id="@+id/lugar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:background="#D8CB87"
+        android:text="TextView"
+        android:textSize="15dp" />
+
+    <TextView
+        android:id="@+id/detalle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:background="@drawable/cardgradient"
+        android:text="TextView"
+        android:textSize="15dp" />
+
+
+</LinearLayout>
